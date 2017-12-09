@@ -4,6 +4,7 @@ title Python interpreter by hiyouga
 color 0a
 echo Welcome to Python interpreter by hiyouga
 echo Now is: %date:~0,10% %time:~0,8%
+python -V
 echo.
 cd %cd%
 if "%1" == "" (
