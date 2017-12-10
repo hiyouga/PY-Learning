@@ -1,0 +1,12 @@
+#average3.py
+def main():
+	sumn = 0.0
+	count = 0
+	x = eval(input("Enter a number (negative to quit)"))
+	while x >= 0:
+		sumn += x
+		count += 1
+		x = eval(input("Enter a number (negative to quit)"))
+	print("\nThe average of the numbers is:", sumn / count)
+
+main()
